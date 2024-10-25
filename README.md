@@ -4,6 +4,16 @@ This plugin searches for all codeblocks in your notes, finds the python ones, an
 
 This is primarily designed for visualization in mind, and works well with matplotlib and numpy.
 
+> [!WARNING] This is terrible code!!!!
+> All the css is inline because I am lazy and was encountering some issues
+> same goes for the javascript, where I had a wierd issue of " and < being encoded into their html entities `&quot;` and `&lt;` respectively
+
+I could make the code runner faster, but at the cost of crashing the site if you run the codeblock before the resources are done loading, which takes around 10 seconds.
+
+## Update
+
+I have added a sort of IDE to go along with the code runner, allows you to edit the code as you go, collapse it for easy viewing, so on and so forth. This plugin might be getting a better expansion for more languages and so on.
+
 ## Installation
 
 - Copy the `RunPythonPlugin.ts` into your Quartz under `quartz/plugins/transformers`
