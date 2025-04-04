@@ -65,15 +65,17 @@ I havent really overhauled this, but some css bugs remain so you will probably w
   padding: 10px;
   background-color: rgba(128, 128, 128, 0.5); /* grey and mostly transparent */
   border: 2px solid rgba(64, 64, 64, 0.8); /* darker gray and less transparent border */
-  border-radius: 10px; /* rounded corners */
-  border-radius: 0.5rem;
+  border-radius: 0.5rem !important;
 }
 .python-output.visible {
   display: block; /* make visible after running */
+  border-radius: 0.5rem !important;
 }
 
 .code-block {
+  width: 100%;
   border-radius: 0.5rem;
+  overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -266,6 +268,16 @@ I havent really overhauled this, but some css bugs remain so you will probably w
 
 [saved-theme="dark"] .close-output-btn:hover {
   color: #f5c2e7;
+}
+
+// main center border with light/dark mode
+// square
+[saved-theme="dark"] .center {
+  border: 1px solid var(--darkgray);
+}
+
+[saved-theme="light"] .center {
+  border: 1px solid var(--darkgray);
 }
 ```
 
