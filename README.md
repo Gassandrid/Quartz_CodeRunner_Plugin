@@ -10,7 +10,7 @@ This also has the added benefit of the code runner being ready immediately when 
 
 ## Demo
 
-[Watch the demo video](./code-runner.mp4)
+[Watch the demo video (MP4)](https://ewan.my/Attachments/code-runner.mp4)
 
 _Can also be seen on [my website](https://ewan.my/Notes/Computational-Neuroscience/Theory/Theoretical-Neuroscience---Peter-Dayan-and-L.-F.-Abbott/CH1---Firing-Rates-and-Spike-Statistics/Firing-Rate-Approximation), using the added scss styles to make the output look nice._
 
