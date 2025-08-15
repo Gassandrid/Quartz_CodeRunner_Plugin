@@ -2,9 +2,20 @@
 
 A simple, asynchronous Python code runner plugin for Quartz. This plugin allows you to run Python code blocks directly within your Quartz notes, providing a convenient way to execute and view the output of your Python scripts.
 
+### Big Update
+
+The python environement now starts loading the moment your quartz site is open, global across all pages. This fixes the annoying bug where if a page was pre-loaded into the DOM, the python environment would not be loaded when you opened the page, and you would have to refresh the page to get it to work.
+
+This also has the added benefit of the code runner being ready immediately when you open a page, so you can run your code without having to wait for the environment to load.
+
 ## Demo
 
-Can be seen on [my website](https://ewan.my/Notes/Computational-Neuroscience/Theory/Theoretical-Neuroscience---Peter-Dayan-and-L.-F.-Abbott/CH1---Firing-Rates-and-Spike-Statistics/Firing-Rate-Approximation), using the added scss styles to make the output look nice.
+<video controls style="max-width: 100%; height: auto;">
+  <source src="./code-runner.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+_Can also be seen on [my website](https://ewan.my/Notes/Computational-Neuroscience/Theory/Theoretical-Neuroscience---Peter-Dayan-and-L.-F.-Abbott/CH1---Firing-Rates-and-Spike-Statistics/Firing-Rate-Approximation), using the added scss styles to make the output look nice._
 
 ## Installation
 
